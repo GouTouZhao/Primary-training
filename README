@@ -15,8 +15,25 @@ UI颜色：
     拓展：人工客服消息回复？ ；  管理员操作日志 ； 
 
 ##后端服务器端
-    中转航班推荐？？？
+    服务器api： https://sixonezero.goutou.space
+    OR 本地docker镜像： goutouz/backend
+
+    所有数据类型：application/json
+    返回类型{
+        success,  #布尔类型
+        message,  #如果成功
+        errors,    #如果失败
+    }
+    
+    注册接口：post{
+        email, 
+        username, 
+        password,
+    }back{
+        success,
+        message OR errors,
+    }
+
     登录接口
-    注册接口
 
 

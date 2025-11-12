@@ -43,6 +43,8 @@ UI颜色：
         success,
         message OR errors,
         userid,
+        email,
+        username,
     }
 
 

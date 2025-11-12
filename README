@@ -24,6 +24,16 @@ UI颜色：
         message,  #如果成功
         errors,    #如果失败
     }
+
+    测试接口：/Info
+    post{
+        email,
+    }back{
+        success,
+        message OR errors,
+        id,
+        username,
+    }
     
     注册接口：/Register
     post{

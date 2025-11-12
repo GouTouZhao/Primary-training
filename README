@@ -25,7 +25,8 @@ UI颜色：
         errors,    #如果失败
     }
     
-    注册接口：post{
+    注册接口：/Register
+    post{
         email, 
         username, 
         password,
@@ -34,6 +35,14 @@ UI颜色：
         message OR errors,
     }
 
-    登录接口
+    登录接口: /Login
+    post{
+        email,
+        password,
+    }back{
+        success,
+        message OR errors,
+        userid,
+    }
 
 
